@@ -1,0 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap'); */
+
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf),
+         url(./../fonts/Vazir.eot),
+         url(./../fonts/Vazir.woff),
+         url(./../fonts/Vazir.woff2);
+}
+
+*{
+    font-family: vazir;
+}

@@ -1,0 +1,23 @@
+/* selector -> by tag name */
+
+h1{
+    font-size: 20px;
+}
+
+/* selector -> by class name */
+
+.first{
+    color: rgb(248, 63, 171) ;
+    background-color: rgb(88, 151, 245);
+}
+
+.second{
+    color: chartreuse;
+    background-color: crimson;
+}
+
+/* /* selector -> by ID */
+
+#x{
+    font-size: 35px;
+}

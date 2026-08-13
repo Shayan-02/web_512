@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+span{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Google Sans";
+}
+
+.blue{
+    color: #3174F1;
+}
+
+.red{
+    color: #E63125;
+}
+
+.yellow{
+    color: #F6AD01;
+}
+
+.green{
+    color: #249A41;
+}
