@@ -1,0 +1,38 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+*{
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+p{
+    background-color: #0C5B89;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.zarebin{
+    color: white;
+    font-size: 14px;
+}
+
+.tel{
+    color: rgb(73, 73, 255);
+    font-size: 35px;
+}
+
+.whatsapp{
+    color: rgb(94, 255, 94);
+    font-size: 35px;
+}
