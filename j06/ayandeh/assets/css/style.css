@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+ul{
+    text-align: center;
+    background-color: coral;
+}
+
+li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+a{
+    color: white;
+}
+
+.search{
+    color: white;
+}
