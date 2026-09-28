@@ -1,0 +1,99 @@
+@font-face {
+    font-family: yekan;
+    src: url(./../fonts/IRANYekan.woff);
+}
+
+:root{
+    --rang-asli: #171923;
+    --rang-kamrang: #2D3748;
+    --sefid-kamrang: #c5c3c37e;
+    --sefid: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+    font-family: yekan;
+    font-size: 13px;
+
+}
+
+body{
+    background-color: var(--rang-asli);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--rang-kamrang);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+}
+
+header nav .menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav .menu ul li a{
+    color: var(--sefid-kamrang);
+}
+
+header nav .menu ul li a:hover{
+    color: var(--sefid);
+    transition: all .5s ease;
+}
+
+header nav .items{
+    display: flex;
+    align-items: center;
+}
+
+header nav .items .right{
+    border-left: 1px solid var(--rang-kamrang);
+    padding: 0 16px;
+}
+
+header nav .items .right button{
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--rang-kamrang);
+    border-radius: 8px;
+}
+
+header nav .items .left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 16px;
+}
+
+header nav .items .left img{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.fa-bell, .fa-moon{
+    color: var(--sefid-kamrang);
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.fa-bell:hover, .fa-moon:hover{
+    color: var(--sefid);
+    background-color: var(--rang-kamrang);
+    transition: all .5s ease;
+}
