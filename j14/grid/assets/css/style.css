@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    height: 500px;
+    /* grid-template-columns: 100px 200px 100px; */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.item {
+    background-color: cyan;
+    border: 1px solid black;
+}

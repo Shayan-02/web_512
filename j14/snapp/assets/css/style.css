@@ -1,0 +1,46 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/VAZIR.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+    font-family: vazir;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F5F8;
+}
+
+.products {
+    height: 600px;
+    width: 60%;
+    /* column-count: 3;
+    column-gap: 50px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.product img {
+    width: 50px;
+}

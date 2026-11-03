@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    column-count: 3;
+    /* column-width: 500px; */
+    column-gap: 50px;
+    column-rule: 2px solid black;
+}

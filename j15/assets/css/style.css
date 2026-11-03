@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .width-70 {
+    width: 70vw;
+
+}
+
+main .snapp-food-box .top {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .snapp-food-box .top p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main .snapp-food-box .top .icon {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+
+main .snapp-food-box .bottom .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .snapp-food-box .bottom .item {
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+}
+
+main .snapp-food-box .bottom .item .promo {
+    width: 100%;
+    height: 144px;
+}
+
+main .snapp-food-box .bottom .item .description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+}
+
+main .snapp-food-box .bottom .item .description .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tumb{
+    width: 50px;
+}

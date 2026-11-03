@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    width: 60%;
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 50px;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product img {
+    width: 50px;
+}

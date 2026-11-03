@@ -1,0 +1,126 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf);
+}
+
+:root {
+    --primary-color: #21AA58;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction: rtl;
+    font-family: vazir;
+}
+
+/* header */
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    background-color: white;
+    height: 70px;
+}
+
+.menu {
+    width: 80%;
+}
+
+#super-menu {
+    width: 70%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#super-menu a {
+    color: rgb(34, 34, 34);
+}
+
+/* main */
+
+.box {
+    display: flex;
+    height: 400px;
+}
+
+.right, .left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 150px 0 100px;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.rem;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+}
+
+.products-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 50px;
+}
+
+.products-box h2{
+    font-size: 2rem;
+}
+
+.products{
+    display: flex;
+    gap: 100px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product img{
+    width: 60px;
+}
+
+.texts p{
+    font-size: .9rem;
+}
+
+.description{
+    color: #777;
+}

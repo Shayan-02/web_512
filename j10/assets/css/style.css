@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    direction : rtl;
+}
+
+table{
+    border-collapse: collapse; 
+    text-align: center;
+}
+
+table, tr, th, td{
+    padding:10px;
+}
